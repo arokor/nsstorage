@@ -1,0 +1,28 @@
+{
+  "name": "nsstorage",
+  "version": "0.0.1",
+  "description": "Minimal namespaced storage layer on top of localStorage or sessionStorage",
+  "homepage": "https://github.com/arokor/nsstorage",
+  "authors": [
+    "Aron Kornhall <aron@kornhall.se>"
+  ],
+  "main": "lib/nsstorage.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "namespace",
+    "localStorage",
+    "sessionStorage"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
