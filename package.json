@@ -1,0 +1,31 @@
+{
+  "name": "nsstorage",
+  "version": "0.0.1",
+  "description": "Minimal namespaced storage layer on top of localStorage or sessionStorage",
+  "main": "lib/nsstorage.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "chai": "^1.9.2"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arokor/nsstorage.git"
+  },
+  "keywords": [
+    "namespace",
+    "localStorage",
+    "sessionStorage"
+  ],
+  "author": "Aron Kornhall <aron@kornhall.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arokor/nsstorage/issues"
+  },
+  "homepage": "https://github.com/arokor/nsstorage"
+}
